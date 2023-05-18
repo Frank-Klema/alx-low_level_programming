@@ -3,7 +3,7 @@
  * main - prints formatted string
  * @void: no input
  *
- * Return - returns 0
+ * Return: returns 0
  */
 
 int main(void)
