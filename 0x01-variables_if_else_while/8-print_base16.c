@@ -8,23 +8,23 @@
 
 int main(void)
 {
-        int hex;
+	int hex;
 
-        hex = '0';
-        while (hex >= '0' && hex <= '9')
-        {
-                putchar(hex);
-                hex++;
-        }
+	hex = '0';
+	while (hex >= '0' && hex <= '9')
+	{
+		putchar(hex);
+		hex++;
+	}
 
-        hex = 'a';
-        while (hex >= 'a' && hex <= 'f')
-        {
-                putchar(hex);
-                hex++;
-        }
-        putchar('\n');
+	hex = 'a';
+	while (hex >= 'a' && hex <= 'f')
+	{
+		putchar(hex);
+		hex++;
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
 

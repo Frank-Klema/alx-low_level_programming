@@ -21,6 +21,7 @@ int main(void)
 		}
 		combo++;
 	}
+	putchar('\n');
 
 	return (0);
 }
