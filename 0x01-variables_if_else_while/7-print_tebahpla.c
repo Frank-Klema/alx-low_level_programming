@@ -9,14 +9,14 @@
 
 int main(void)
 {
-        int alphabet = 'z';
+	int alphabet = 'z';
 
-        while (alphabet <= 'z' && alphabet >= 'a')
-        {
-                putchar(alphabet);
-                alphabet--;
-        }
-        putchar('\n');
+	while (alphabet <= 'z' && alphabet >= 'a')
+	{
+	putchar(alphabet);
+	alphabet--;
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
