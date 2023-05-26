@@ -7,18 +7,22 @@
 
 void more_numbers(void)
 {
-	int num, T, U;
+	int num, T, U, freq;
 
-	for (num = 0; num <= 14; num++)
+	for (freq = 0; freq < 10; freq++)
 	{
-		T = num / 10;
-		U = num % 10;
-
-		if (num >= 10)
+		for (num = 0; num <= 14; num++)
 		{
-			_putchar(T + 48);
+			T = num / 10;
+			U = num % 10;
+
+			if (num >= 10)
+			{
+				_putchar(T + 48);
+			}
+			_putchar(U + 48);
 		}
-		_putchar(U + 48);
+
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
