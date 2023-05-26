@@ -7,13 +7,13 @@
 
 void print_square(int size)
 {
-	int width, breadth;
+	int w, b;
 
 	if (size > 0)
 	{
-		for (width = 1; width <= size; width++)
+		for (w = 1; w <= size; w++)
 		{
-			for (breadth = 1; breadth <= size; breadth++)
+			for (b = 1; b <= size; b++)
 			{
 				_putchar('#');
 			}
