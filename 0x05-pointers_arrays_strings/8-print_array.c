@@ -8,11 +8,15 @@
 
 void print_array(int *a, int n)
 {
-	int i;
+	int i = 0;
 
 	while (i < n)
 	{
-		_putchar(*(a + i));
+		if (i != 0)
+		{
+			printf(", ");
+		}
+		printf("*(a + i)");
 		i++;
 	}
 	_putchar('\n');
