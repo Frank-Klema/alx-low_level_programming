@@ -5,7 +5,7 @@
  * @s: is a pointer to char
  */
 
-void rev_string(char* s)
+void rev_string(char *s)
 {
 	char a;
 	int i = 0, j = 0, half;
@@ -25,5 +25,4 @@ void rev_string(char* s)
 		i--;
 		j++;
 	}
-			
 }
