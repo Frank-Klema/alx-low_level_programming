@@ -17,7 +17,7 @@ void print_array(int *a, int n)
 		{
 			printf(", ");
 		}
-		printf("%lu", *(a + i));
+		printf("%d", *(a + i));
 		i++;
 	}
 	_putchar('\n');
